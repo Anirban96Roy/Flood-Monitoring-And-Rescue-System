@@ -25,7 +25,7 @@ app.get("/",(req,res)=>
 });
 
 //port
-const port=process.env.por|| 8080;
+const port=process.env.port || 3000;
 
 app.listen(port,()=>
 {
