@@ -1,13 +1,21 @@
-.navbar{
-    font-family: "playfair Display", serif;
+.navbar {
+    font-family: "Playfair Display", serif;
     font-size: 17px;
     line-height: 26px;
     text-transform: uppercase;
     padding: 35px 0;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    background: transparent;
+    z-index: 999;
+    position: fixed;
+    width: 100%; /* Ensure the navbar takes the full width */
 }
+.navbar-nav {
+  flex-direction: row; /* Ensure items are in a row */
+  margin-left: 0; /* Remove any left margin */
+}
+
 .navbar ul li{
     list-style: none;
     display: inline-block;
@@ -26,4 +34,28 @@
 }
 .navbar ul li:hover::after{
     width: 100%;
+}
+.container {
+    background: transparent !important; /* Ensures no background for the container */
+}
+.navbar-collapse {
+    flex-grow: 1; /* Allow the navbar to take up available space */
+}
+
+.navbar-nav {
+    margin-left: 0; /* Ensure there’s no left margin */
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #ffffff; /* Set the default text color to white */
+}
+
+
+.navbar-brand {
+    color: #ffffff; /* Change brand color to white or any contrasting color */
+}
+
+
+.dropdown-menu {
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent dropdown */
 }
