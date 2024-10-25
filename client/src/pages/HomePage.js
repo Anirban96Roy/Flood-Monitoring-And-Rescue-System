@@ -26,6 +26,29 @@ const HomePage = () => {
                         <span></span> {/* This span is for the hover effect */}
                     </button>
                 </div>
+
+                <div className="Information">
+                    <div className="Information-row">
+                        <div className="Information-card">
+                        <h3>Information Card</h3>
+                        <p>Lorem ipsum dolor sit amet,  consectetur adipiscing elit</p>
+                        <a>Learn more</a> 
+                        </div>
+                        <div className="Information-card">
+                        <h3>Information Card</h3>
+                        <p>Lorem ipsum dolor sit amet,  consectetur adipiscing elit</p>
+                        <a>Learn more</a> 
+                        </div>
+                        <div className="Information-card">
+                        <h3>Information Card</h3>
+                        <p>Lorem ipsum dolor sit amet,  consectetur adipiscing elit</p>
+                        <a>Learn more</a>     
+                        </div>
+                    </div>
+                </div>
+
+                   
+
             </div>
         </Layout>
   )
